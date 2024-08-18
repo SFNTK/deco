@@ -36,7 +36,7 @@ const Testicaro = () => {
             <div id='container3' ref={divRef}>
             <div  className='caro' >
                <img className='imagecaro' src='./modern.jpg'/>
-               <p className='pcaro'>"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."</p>
+               <p className='pcaro'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                <div>
                 <img className='userimagecaro' src='./pexels-andrew-personal-training-697509.jpg'/>
                 <span className='nameusercaro'>arsene kolaya </span>
@@ -44,7 +44,7 @@ const Testicaro = () => {
             </div>
             <div  className='caro' >
                <img className='imagecaro' src='./modern.jpg'/>
-               <p className='pcaro'>"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."</p>
+               <p className='pcaro'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                <div>
                 <img className='userimagecaro' src='./person2.jpg'/>
                 <span className='nameusercaro'>fernando tolea </span>
@@ -52,7 +52,7 @@ const Testicaro = () => {
             </div>
             <div  className='caro' >
                <img className='imagecaro' src='./modern.jpg'/>
-               <p className='pcaro'>"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."</p>
+               <p className='pcaro'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                <div>
                 <img className='userimagecaro' src='./person3.jpg'/>
                 <span className='nameusercaro'>alberto machland </span>
@@ -60,7 +60,7 @@ const Testicaro = () => {
             </div>
             <div  className='caro' >
                <img className='imagecaro' src='./modern.jpg'/>
-               <p className='pcaro'>"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."</p>
+               <p className='pcaro'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                <div>
                 <img className='userimagecaro' src='./person4.jpg'/>
                 <span className='nameusercaro'>rafa munier </span>
@@ -68,7 +68,7 @@ const Testicaro = () => {
             </div>
             <div  className='caro' >
                <img className='imagecaro' src='./modern.jpg'/>
-               <p className='pcaro'>"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."</p>
+               <p className='pcaro'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                <div>
                 <img className='userimagecaro' src='./person5.jpg'/>
                 <span className='nameusercaro'>john doe </span>
