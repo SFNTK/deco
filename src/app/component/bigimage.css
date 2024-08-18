@@ -1,0 +1,134 @@
+#bigimage{
+    width: 100%;
+    height: 80vh;
+  padding-top: 35px;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+#bigimagediv1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+#bigimagediv1 div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+#bigimagediv1 div div{
+    padding: 20px 20px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    width: 45%;
+    cursor: pointer;
+    
+}
+#bigimagediv1 div  div:nth-of-type(1) {
+    /* Your CSS styles here */
+    background-color:#004643;
+   transition: all .3s;
+  }
+  #bigimagediv1 div  div:nth-of-type(1):hover {
+    /* Your CSS styles here */
+    background-color:transparent;
+
+    border: .3px solid #004643;
+
+
+   
+  }
+  
+    /* On hover, move the pseudo-element to cover the entire div */
+ 
+  #bigimagediv1 div  div:nth-of-type(2) {
+    /* Your CSS styles here */
+    border: .3px solid white;
+   
+  }
+#bigimagediv1 p{
+    font-family: "DM Sans", sans-serif;
+color: #e7e6e6;
+}
+#bgbig{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+}
+
+#overl{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0,.4);
+    z-index: -1;
+}
+#contentp{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    width: 40%;
+    font-size: 3rem;
+    font-weight: 600;
+}
+@media (max-width:1024px){
+  #bigimage{
+    flex-direction: column;
+    height: auto;
+    padding: 35px 0;
+   }
+   #bigimagediv1{
+    width: 90%;
+    margin-left: 5%;
+   }
+
+   #bigimagediv1 div div{
+    width: 90%;
+   }
+   #bigimagediv1 p{
+    width: 100%;
+    
+   }
+   #contentp{
+    width: 90%;
+    margin-left: 5%;
+   }
+}
+@media (max-width:768px){
+   #bigimage{
+    flex-direction: column;
+    height: auto;
+    padding: 35px 0;
+   }
+   #bigimagediv1{
+    width: 90%;
+    margin-left: 5%;
+   }
+
+   #bigimagediv1 div div{
+    width: 90%;
+   }
+   #bigimagediv1 p{
+    width: 100%;
+    
+   }
+   #contentp{
+    width: 90%;
+    margin-left: 5%;
+   }
+
+  }

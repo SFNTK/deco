@@ -1,0 +1,128 @@
+#container3{
+   display: flex;
+width: 200vw;
+transition: all 2s;
+column-gap: 5vw;
+height: auto; 
+transform: translateX(0px);
+margin-top: 10px;
+padding: 10px;
+overflow: hidden;
+
+}
+#bigg{
+    overflow: hidden;
+}
+
+.caro{overflow: hidden;
+    width: 35vw;
+  /*  border: solid 2px salmon;*/
+    transform: all 15s;
+    height: auto;
+   
+    background-color: transparent;
+}
+
+#arrowleftcaro{
+ 
+    width: 30px;
+    height: auto;
+    z-index: 9999;
+}
+#arrowrightcaro{
+ transform: rotate(180deg);
+ margin-left: 10px;
+    width: 30px;
+    height: auto;
+    z-index: 9999;
+}
+#firstdv{
+    width:  80%;
+    justify-content: space-between;
+    display: flex;
+   margin:3% 10%;
+   padding-bottom: 1%;
+ 
+border-bottom: 1px solid gray;
+}
+#firstdv p{  font-family: "DM Sans", sans-serif;
+   font-size: 2.3rem;
+   font-weight: 600;
+   width: 50%;
+
+
+}
+#firstdv div{
+    align-self: self-end;
+}
+
+.imagecaro{
+    width: 100%;
+    border-radius: 5px;
+    height: 300px;
+}
+.pcaro{
+    margin:4px ;
+    color: #454F4E;
+    font-size: .9em;
+   padding-bottom: 3%;
+   border-bottom: gray solid 1px;
+   font-family: "DM Sans", sans-serif;
+}
+
+.userimagecaro{
+    width: 40px;
+    height: 40px;
+    border-radius:50% ;
+}
+.nameusercaro{
+    font-family: "DM Sans", sans-serif;
+    font-weight: bold;
+    width: auto;
+}
+.caro div{
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    column-gap: 10px;
+}
+@media (max-width:1024px){
+    .caro div{
+        column-gap: 10px;
+    }
+}
+@media (max-width:768px){
+    .caro{
+        width: 95vw;
+    }  
+    #container3{
+        width: 500vw;
+    }
+    .caro div{
+        width: 25%;
+    }
+    #firstdv{
+        flex-direction: column;
+        row-gap: 30px;
+    
+      margin-left: 0%;
+      padding: 0% 5%;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    #firstdv p{
+        width: 100%;
+        text-align: center;
+    }
+    #bigg{
+       
+    }
+    #container3{
+
+    }
+    .caro div{
+        column-gap: 20px;
+    }
+}

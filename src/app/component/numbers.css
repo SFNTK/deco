@@ -1,0 +1,50 @@
+#numbers{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2% 1%;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateY(70px);
+}
+
+#numberpara{
+    font-family: "DM Sans", sans-serif;
+    color: #454F4E;
+
+}
+#numbermini{
+    font-family: "DM Sans", sans-serif;
+    color: #008207;
+font-weight: 600;
+margin-top: 3%;
+
+}
+#numberheadline{
+    font-size: 2.5rem;
+    font-family: "DM Sans", sans-serif;
+    color: #004643;
+    font-weight: 600;
+
+}
+@media (max-width:992px){
+   
+}
+@media (max-width:768px){
+
+   #numbers{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 9px;
+   }
+   .number{
+    
+    width: 100%;
+    align-items: center;
+   }
+}
